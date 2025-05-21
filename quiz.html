@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Interactif</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="top-bar">
+      <div id="score">Score : 0</div>
+      <div id="timer">Temps : 30s</div>
+    </div>
+    <div id="question" class="question">
+      Quel est le plus grand océan du monde ?
+    </div>
+
+    <div id="choices" class="choices">
+      <div class="choice">Atlantique</div>
+      <div class="choice">Indien</div>
+      <div class="choice">Arctique</div>
+      <div class="choice">Pacifique</div>
+    </div>
+    <button id="next-btn" class="btn" disabled>Suivant</button>
+  </div>
+  <div id="resultat" >
+         <p class="Termine">LE QUIZ EST TERMINE</p>
+         <div class="Note-final">
+           <p>Le Nombre de réponse correctes :</p>
+             <div id="nbrqCorrect" class="nbrqCorrect">20</div>
+          <p>LA NOTE :</p>
+             <div id="note" class="note">20</div>
+         </div>
+         <button id="btn-returnC" class="btn">retour </button>
+       </div>
+  </div>
+
+</body>
+</html>
