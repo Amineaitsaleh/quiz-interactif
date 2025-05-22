@@ -1,11 +1,6 @@
 {
     "Informatique":[
         {
-            "question": "Quelle est l'extension d'un fichier JavaScript ?",
-            "options": [".css", ".js", ".html", ".json"],
-            "correct": ".js"
-        },
-        {
             "question": "Qu'est-ce qu'une base de données ?",
             "options": [
                 "Un tableau Excel",
@@ -29,6 +24,11 @@
             "question": "Quel langage est considéré comme un langage compilé ?",
             "options": ["Python", "JavaScript", "C++", "HTML"],
             "correct": "C++"
+        },
+        {
+            "question": "Quelle est l'extension d'un fichier JavaScript ?",
+            "options": ["css", "js", "html", "json"],
+            "correct": "js"
         },
         {
             "question": "Que signifie 'HTML' ?",
@@ -155,8 +155,8 @@
     "capitales":[
         {
             "question": "Quelle est la capitale de l'Allemagne ?",
-            "options": [".Munich", ".Berlin", ".Hambourg", ".Francfort"],
-            "correct": ".Berlin"
+            "options": ["Munich", "Berlin", "Hambourg", "Francfort"],
+            "correct": "Berlin"
         },
         {
             "question": "Quelle est la capitale du Canada ?",

@@ -6,7 +6,7 @@ body {
 }
 
 .quiz-container {
-   width: 400px;
+   width: 500px; 
    margin: auto;
    margin-top: 120px ;
    margin-bottom: 400px;
@@ -51,11 +51,11 @@ body {
   background: #c7d2fe;
 }
 
-.choice.correct {
+.correct {
   background-color: #a7f3d0;
 }
 
-.choice.incorrect {
+.incorrect {
   background-color: #fecaca;
 }
 
@@ -67,7 +67,10 @@ body {
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
- 
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
 }
 .btn:hover {
  background:  #3c79dc;

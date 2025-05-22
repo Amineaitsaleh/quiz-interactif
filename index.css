@@ -14,7 +14,6 @@
             background-size: cover;
             font-family: 'Lora', sans-serif;
             line-height: 1.6;
-            overflow: hidden;
             
         }
 
@@ -94,14 +93,6 @@
             color:#00FFB2;
         }
 
-
-      
-
-
-
-
-
-
 #category{
     overflow-y: auto;
     margin: 0;
@@ -161,7 +152,7 @@
   margin-bottom: 20px;
 }
 
-.btn {
+.btn-choix {
   
   text-decoration: none;
   padding: 10px 20px;
