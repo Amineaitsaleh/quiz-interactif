@@ -51,14 +51,6 @@ body {
   background: #c7d2fe;
 }
 
-.correct {
-  background-color: #a7f3d0;
-}
-
-.incorrect {
-  background-color: #fecaca;
-}
-
 .btn{
   padding: 10px 20px;
   border: none;
